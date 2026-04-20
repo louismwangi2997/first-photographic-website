@@ -60,15 +60,18 @@ strong {
         margin-right: 200px;
         margin-left: 100px;
         
+        
 
     }
     .dudu {
         align-items: center;
         display: flex;
+        margin-top: 80px;
     }
     .didi {
         align-items: center;
         display: flex;
+        margin-top: 90px;
     }
     .set {
         width: 400px;
@@ -83,6 +86,7 @@ strong {
     .dede {
         align-items: center;
         display: flex;
+        margin-top: 80px;
     }
     .mts {
         width: 400px;
@@ -91,6 +95,21 @@ strong {
         border-radius: 400%;
     }
     .himalayas {
+        margin-right: 200px;
+        margin-left: 100px;
+    }
+    .dodo {
+       align-items: center;
+        display: flex;
+        margin-top: 90px;  
+    }
+    .coll {
+         width: 400px;
+        height: 400px;
+        display: block;
+        border-radius: 400%;
+    }
+    .historical {
         margin-right: 200px;
         margin-left: 100px;
     }
