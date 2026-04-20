@@ -65,4 +65,22 @@ strong {
         align-items: center;
         display: flex;
     }
+    .didi {
+        align-items: center;
+        display: flex;
+    }
+    .set {
+        width: 400px;
+        height: 400px;
+        display: block;
+        border-radius: 400%;
+    }
+    .sunset {
+        margin-right: 200px;
+        margin-left: 100px;
+    }
+    .dede {
+        align-items: center;
+        display: flex;
+    }
     
