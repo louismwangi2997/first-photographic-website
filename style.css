@@ -44,3 +44,25 @@ p {
 .gad {
     color: skyblue;
 }
+strong {
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .city {
+        width: 400px;
+        height: 400px;
+        display: block;
+        border-radius: 400%;
+        
+    }
+    .newyork {
+        margin-right: 200px;
+        margin-left: 100px;
+        
+
+    }
+    .dudu {
+        align-items: center;
+        display: flex;
+    }
+    
