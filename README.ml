@@ -1,7 +1,7 @@
 # Photography website
 ## Author (Louis)
 ## Description (This project is a photography website designed to showcase a collection of favorite photos, including landscapes, city scenes, and everyday moments. The website highlights creativity through images while demonstrating the use of HTML and CSS for structuring and styling web pages. It is visually appealing and easy to navigate, providing users with an engaging browsing experience.)
-## setup instructions ()
+## setup instructions (1. Download the repository   2.Open the project folder  3. Locate the index.html file   4.Double-click the file or open it in your web browser)
 
 
 
