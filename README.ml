@@ -36,9 +36,9 @@ View the live website here:
 
 ---
 
-## License
+## License and Copyrights
 
-© 2026 Louis. 
+© 2026 Louis. All rights preserved. This project is licensed under the MIT License. You are free to use, modify, and distribute this project for personal or educational purposes.
 
 
 
