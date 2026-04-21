@@ -113,3 +113,9 @@ strong {
         margin-right: 200px;
         margin-left: 100px;
     }
+    .moda {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: inherit;
+        font-size: large;
+    }
+    
