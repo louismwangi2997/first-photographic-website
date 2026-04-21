@@ -4,7 +4,13 @@ A personal photography portfolio website by **louis**, showcasting nature, sunse
 
 ---
 
-##Author
+## Author
+
+**Louis** - Nature and asthetics photogarpher
+
+---
+
+## Description
 
 
 
