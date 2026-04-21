@@ -150,7 +150,7 @@ form button {
     cursor: pointer;
 }
 form button:hover {
-    background-color: navy;
+    background-color: green;
 }
 
 
@@ -167,5 +167,9 @@ nav a {
     
     font-size: 18px;
     
+}
+header a {
+    text-decoration: none;
+    color: inherit;
 }
     
