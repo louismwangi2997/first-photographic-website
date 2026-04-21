@@ -8,7 +8,7 @@
 
 ## Live site (view the web site in "[text](https://github.com/louismwangi2997/first-photographic-website)" )
 
-## Copyright and license (© 2026 Louis    )
+## Copyright and license (© 2026 Louis    This project is licensed under the MIT License. You are free to use, modify, and distribute this project for personal or educational purposes.)
 
 
 
