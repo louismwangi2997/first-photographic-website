@@ -47,7 +47,6 @@ nav ul li a:hover {
     padding: 20PX;
 }
 
-/* ===== GALLERY ===== */
 .gallery {
     padding: 30px;
     text-align: center;
@@ -65,13 +64,13 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-/* ===== LIST ===== */
+
 ol {
     text-align: left;
     display: inline-block;
 }
 
-/* ===== BIO ===== */
+
 #bio {
     background: #1e293b;
     padding: 20px;
@@ -90,7 +89,7 @@ ol {
     border-radius: 50%;
 }
 
-/* ===== LIST ===== */
+
 ul {
     text-align: left;
 }
