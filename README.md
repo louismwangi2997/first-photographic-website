@@ -12,7 +12,7 @@ This is a photographic website where beautifull moments have been captured for t
 3. Double click pn index.html to open it in your browser
 
 ## Live site
-
+https://louismwangi2997.github.io/first-photographic-website.git
 
 ## License
 © 2026 Louis Photography Portfolio. All rights reserved.This project isn licensed under MIT license
