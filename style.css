@@ -1,147 +1,117 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: gray;
-}
 body {
     margin: 0;
-    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f172a;
+    color: white;
 }
-.logo {
-    width: 60px;
-    height: 60px;
-    display: block;
-    border-radius: 50%;
-    margin-left: 4px;
+
+
+header {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #334155;
 }
-h1 {
-    margin-right: 500px;
-    color: gold;
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #111;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+
+.intro {
+    text-align: left;
+    padding: 20PX;
+}
+
+/* ===== GALLERY ===== */
+.gallery {
+    padding: 30px;
+    text-align: center;
+}
+
+.grid {
+    text-align: left;
     
 }
-.hint {
-    color: gray;
-    margin-left: 4px;
-    font-weight: 600;
-    font-size: large;
-    margin-top: 2px;
-}
-.pic2 {
-    width: 700px;
-    margin-left: 420px;
 
-}
-h2 {
-    color: orange;
-    margin-left: 10px;
-}
-p {
-    margin-left: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style:inherit;
-    font-size: large;
-}
-.gad {
-    color: skyblue;
-}
-strong {
-    color: green;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .city {
-        width: 400px;
-        height: 400px;
-        display: block;
-        border-radius: 400%;
-        
-    }
-    .newyork {
-        margin-right: 200px;
-        margin-left: 100px;
-        
-        
-
-    }
-    .dudu {
-        align-items: center;
-        display: flex;
-        margin-top: 80px;
-    }
-    .didi {
-        align-items: center;
-        display: flex;
-        margin-top: 90px;
-    }
-    .set {
-        width: 400px;
-        height: 400px;
-        display: block;
-        border-radius: 400%;
-    }
-    .sunset {
-        margin-right: 200px;
-        margin-left: 100px;
-    }
-    .dede {
-        align-items: center;
-        display: flex;
-        margin-top: 80px;
-    }
-    .mts {
-        width: 400px;
-        height: 400px;
-        display: block;
-        border-radius: 400%;
-    }
-    .himalayas {
-        margin-right: 200px;
-        margin-left: 100px;
-    }
-    .dodo {
-       align-items: center;
-        display: flex;
-        margin-top: 90px;  
-    }
-    .coll {
-         width: 400px;
-        height: 400px;
-        display: block;
-        border-radius: 400%;
-    }
-    .historical {
-        margin-right: 200px;
-        margin-left: 100px;
-    }
-    .moda {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-style: inherit;
-        font-size: large;
-    }
-    form {
-    max-width: 650px;
-    margin: 24px auto;
-}
-form label {
-    margin-bottom: 8px;
-    font-weight: bold;
-    display: block;
-}
-form input, form textarea, form button {
+.grid img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ===== LIST ===== */
+ol {
+    text-align: left;
+    display: inline-block;
+}
+
+/* ===== BIO ===== */
+#bio {
+    background: #1e293b;
+    padding: 20px;
+    text-align: left;
+}
+
+.card {
+    background: #334155;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+/* ===== LIST ===== */
+ul {
+    text-align: left;
+}
+
+/* ===== CONTACT ===== */
+.contact {
+   
+    
+    background: #1e293b;
+}
+
+input, form textarea, form button {
+    width: 70%;
     padding: 14px;
     margin-bottom: 18px;
     font-size: 16px;
     border: 1px solid#ddd;
     border-radius: 8px;
 }
-form input:focus, form textarea:focus, form button:focus {
-    border-color: red;
-    outline: none;
-
-}
-form button {
-    background-color: grey;
+button {
+    background-color: darkblue;
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -149,27 +119,29 @@ form button {
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: block;
+}
 form button:hover {
-    background-color: green;
+    background-color: darkred;
+}
+ input:focus, form textarea:focus, form button:focus {
+    border-color: #007bff;
+    outline: none;
+
 }
 
-
-nav {
-    background-color: antiquewhite;
-    padding: 12px 0;
-    display: flex;
-    justify-content: center;
-}
-nav a {
-    text-decoration: none;
-    color: green;
-    margin:0 15px;
+/* ===== FOOTER ===== */
+footer {
     
-    font-size: 18px;
-    
+    background: #111;
 }
-header a {
-    text-decoration: none;
-    color: inherit;
+.papa {
+    margin-left: 100px;
 }
-    
+.mamo {
+    text-align: left;
+    padding: 20PX;
+}
